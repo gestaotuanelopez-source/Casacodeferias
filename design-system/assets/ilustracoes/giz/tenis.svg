@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 136 136" width="272" height="272"><defs>
+<filter id="giz" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
+ <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="4" result="w"/>
+ <feDisplacementMap in="SourceGraphic" in2="w" scale="6" xChannelSelector="R" yChannelSelector="G" result="d"/>
+ <feTurbulence type="fractalNoise" baseFrequency="0.012 0.5" numOctaves="3" seed="9" result="s"/>
+ <feColorMatrix in="s" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -3.4 2.95" result="m"/>
+ <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="1" seed="2" result="g"/>
+ <feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.4 2.5" result="gm"/>
+ <feComposite in="m" in2="gm" operator="in" result="mm"/>
+ <feComposite in="d" in2="mm" operator="in"/>
+</filter>
+<filter id="gizlinha" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
+ <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="7" result="w"/>
+ <feDisplacementMap in="SourceGraphic" in2="w" scale="3" xChannelSelector="R" yChannelSelector="G" result="d"/>
+ <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="1" seed="5" result="g"/>
+ <feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.6 2.6" result="gm"/>
+ <feComposite in="d" in2="gm" operator="in"/>
+</filter>
+</defs><g transform="translate(0.0 0.0) scale(1.000)"><g transform="rotate(-35 60 60)"><g filter="url(#giz)"><g transform="rotate(35 60 60)"><path d="M10 86 Q10 68 24 64 L44 56 Q52 53 58 60 L68 70 Q82 75 98 75 Q112 77 112 90 V96 H10 Z" transform="translate(5 5)" fill="#2F48C4"/></g></g></g><g filter="url(#gizlinha)"><path d="M10 86 Q10 68 24 64 L44 56 Q52 53 58 60 L68 70 Q82 75 98 75 Q112 77 112 90 V96 H10 Z M10 96 H112 M44 62 L52 72 M52 58 L60 68 M86 75 L86 96" fill="none" stroke="#1E2250" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></g></g></svg>

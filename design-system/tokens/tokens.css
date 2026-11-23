@@ -1,0 +1,62 @@
+/* Casaco de Férias — gerado de tokens.json */
+:root, [data-theme="papel"] {
+  --papel: #F6F1EA;
+  --areia: #E4DCD3;
+  --tinta: #1E2250;
+  --tinta-suave: #4E5170;
+  --linha: #D6CCC0;
+  --cobalto: #2F48C4;
+  --on-cobalto: #F6F1EA;
+  --rosa: #F3A9BE;
+  --tomate: #E75129;
+  --on-tomate: #1E2250;
+  --piscina: #5D77F3;
+  --jardim: #387A66;
+  --on-jardim: #F6F1EA;
+  --tangerina: #EC8835;
+  --gema: #F2D65C;
+  --terra: #82402A;
+  --caramelo: #A05724;
+  --lilas: #B98AF0;
+  --foco: var(--cobalto);
+  --font-editorial: "Fraunces", Georgia, serif;
+  --font-institucional: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-10: 40px;
+  --space-16: 64px;
+  --radius-0: 0px;
+  --radius-etiqueta: 6px;
+  --radius-pill: 999px;
+}
+[data-theme="noite"] {
+  --papel: #121633;
+  --areia: #1C2148;
+  --tinta: #F6F1EA;
+  --tinta-suave: #B9B4C9;
+  --linha: #3A4170;
+  --cobalto: #8C9DFF;
+  --on-cobalto: #121633;
+  --rosa: #F3A9BE;
+  --tomate: #FF6A3D;
+  --on-tomate: #1E2250;
+  --piscina: #7F93FF;
+  --jardim: #6FB39C;
+  --on-jardim: #121633;
+  --tangerina: #F29A50;
+  --gema: #F2D65C;
+  --terra: #B0644A;
+  --caramelo: #C27A44;
+  --lilas: #C9A3F5;
+  --foco: var(--cobalto);
+}
+
+/* estilos de texto */
+.t-display { font-family: var(--font-editorial); font-size: 72px; line-height: 68px; font-weight: 600; letter-spacing: -0.02em; }
+.t-titulo { font-family: var(--font-editorial); font-size: 40px; line-height: 44px; font-weight: 600; }
+.t-frase { font-family: var(--font-editorial); font-size: 24px; line-height: 30px; font-weight: 400; font-style: italic; }
+.t-carimbo { font-family: var(--font-institucional); font-size: 13px; line-height: 16px; font-weight: 700; letter-spacing: 0.12em; }
+.t-corpo { font-family: var(--font-institucional); font-size: 16px; line-height: 24px; font-weight: 400; }
+.t-legenda { font-family: var(--font-institucional); font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0.02em; }
